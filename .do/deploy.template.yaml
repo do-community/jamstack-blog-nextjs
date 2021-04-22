@@ -1,0 +1,13 @@
+spec:
+  name: unsplash-clone-next
+  services:
+    - name: nextjs
+      build_command: npm run build
+      run_command: npm run start-do
+      git:
+        branch: main
+        repo_clone_url: https://github.com/chris-on-code/jamstack-blog-nextjs.git
+      envs:
+        - key: NEXT_PUBLIC_API_URL
+          scope: RUN_AND_BUILD_TIME
+          value: https://<your-strapi-app-url-here>i.ondigitalocean.app
