@@ -24,6 +24,9 @@ export default function Home({ posts }) {
   );
 }
 
+/**
+ * Get all of the posts and pass it as the "posts" prop
+ */
 export async function getStaticProps() {
   const res = await fetch("http://localhost:1337/posts");
   const posts = await res.json();
