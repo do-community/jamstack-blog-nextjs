@@ -21,4 +21,4 @@ A MongoDB Database through DigitalOcean.
 
 ## Deploy
 
-[![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/chris-on-code/jamstack-blog-nextjs/tree/master)
+[![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/do-community/jamstack-blog-nextjs/tree/master)
