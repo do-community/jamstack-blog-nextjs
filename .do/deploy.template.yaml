@@ -5,7 +5,7 @@ spec:
       build_command: npm run build
       run_command: npm run start-do
       git:
-        branch: main
+        branch: master
         repo_clone_url: https://github.com/do-community/jamstack-blog-nextjs.git
       envs:
         - key: NEXT_PUBLIC_API_URL
